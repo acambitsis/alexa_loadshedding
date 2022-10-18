@@ -1,0 +1,40 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:eu-west-1:752694307141:function:a98b8085-7034-4d94-bc7f-d980eb4bf2bb:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:752694307141:function:a98b8085-7034-4d94-bc7f-d980eb4bf2bb:Release_0"
+            }
+          },
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:752694307141:function:a98b8085-7034-4d94-bc7f-d980eb4bf2bb:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:752694307141:function:a98b8085-7034-4d94-bc7f-d980eb4bf2bb:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "en-GB": {
+          "name": "My Fancy Power Schedule"
+        }
+      },
+      "testingInstructions": "Sample Testing Instructions."
+    }
+  }
+}
