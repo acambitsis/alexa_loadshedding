@@ -1,0 +1,8 @@
+ask-resources.json
+.ask
+.vscode
+.venv
+lambda/node_modules
+lambda/eskomsepush.py
+*.pyc
+lambda/config.py
